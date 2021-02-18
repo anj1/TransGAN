@@ -23,7 +23,7 @@ import pathlib
 import warnings
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from scipy import linalg
 from imageio import imread
 
